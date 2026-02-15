@@ -1,11 +1,11 @@
-📚 Book Recommendation System
+## 📚 Book Recommendation System
 
 A machine learning based book recommendation system that suggests books to users based on similarity and popularity.
 
 The system uses collaborative filtering and cosine similarity to recommend books that are most relevant to a given title.
 A simple Flask web interface is provided to interact with the recommender.
 
-🚀 Features
+## 🚀 Features
 
 Popular book recommendations
 
@@ -17,7 +17,7 @@ Web interface built with Flask
 
 Lightweight and easy to run locally
 
-🧠 Technologies Used
+## 🧠 Technologies Used
 
 Python
 
@@ -33,9 +33,9 @@ Pickle (model serialization)
 
 Cosine Similarity
 
-📂 Project Structure
-'''
+## 📂 Project Structure
 
+```
 RECOMMENDER_SYSTEM/
 │
 ├── Model/                     # trained model files (if any)
@@ -46,10 +46,9 @@ RECOMMENDER_SYSTEM/
 ├── popular.pkl                # popular books data
 ├── similarity_scores.pkl      # similarity matrix
 └── README.md
+```
 
-'''
-
-⚙️ Setup Instructions
+## ⚙️ Setup Instructions
 1️⃣ Clone the repository
 git clone https://github.com/your-username/book-recommendation-system.git
 cd book-recommendation-system
@@ -61,7 +60,7 @@ python app.py
 Open browser and go to:
 
 http://127.0.0.1:5000
-📊 Dataset
+## 📊 Dataset
 
 CSV dataset files are not included in this repository due to size constraints.
 
@@ -75,7 +74,7 @@ Ratings
 
 If needed, you can use any standard book recommendation dataset such as the Book-Crossing dataset or similar.
 
-🧩 How It Works
+## 🧩 How It Works
 
 User-book rating matrix is created
 
